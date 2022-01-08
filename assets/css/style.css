@@ -87,7 +87,6 @@ font-size: 30px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-
 }
 
 .Horiseon, .Project-4 {
@@ -119,11 +118,9 @@ footer {
     padding-left: 20px;
   }
 
-  /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
-
-}
-
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-}
+    smallContainer img {
+     width: 100%;
+    }
+    }
