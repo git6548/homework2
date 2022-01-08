@@ -67,7 +67,7 @@ font-size: 30px;
     display: flex;
 }
 .work-content img {
-    width: auto;
+    width: 100%;
 }
 
 .work-content h2 {
@@ -80,7 +80,14 @@ font-size: 30px;
 
 .smallContainer {
     display: flex;
-    width: auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.smallContainer img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
 }
 
 .Horiseon, .Project-4 {
