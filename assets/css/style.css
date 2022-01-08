@@ -49,21 +49,15 @@ font-size: 30px;
 /*about me styles*/
 .about-me {
     margin-bottom: 20px;
+    margin-top: 20px;
     padding: 50px;
-    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display: flex;
 }
 /* style for work part*/
-.work {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+
 .work-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -71,54 +65,58 @@ font-size: 30px;
     background-color: #0072bb;
     color: #ffffff;
     display: flex;
-    /*flex-wrap: wrap;
-    flex: 1;
-    text-align: center;
-    height: 300px;
-    */
 }
 .work-content img {
-    width: 100%;
+    width: auto;
 }
 
 .work-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+.imgContainer {
+    padding-left: 20px;
+}
+
+.smallContainer {
+    display: flex;
+    width: auto;
+}
+
+.Horiseon, .Project-4 {
+    margin-right: 20px;
+}
 
 /*contact me styles*/
 .contact-me {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display: flex;
 }
 /*footer styles*/
 footer {
     background: #0072bb;
     padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
   }
 
-  .work {
-
+  .contact-info {
+    padding-left: 20px;
+  }
+  .about-me-info {
+    padding-left: 20px;
   }
 
-  .imgContainer {
-      padding-left: 100px;
-      border-left: black solid 5px ;
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
 
-  }
+}
 
-  .smallContainer {
-      display: flex;
-  }
-
-  .computer, .building {
-      margin-right: 20px;
-  }
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+}
